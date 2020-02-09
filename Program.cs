@@ -8,35 +8,47 @@ namespace Raj_Ankit_Assignment1_Spring2020
         static void Main(string[] args)
         {
             //Console.WriteLine() has been used after each method call to ensure a line break between two method outputs.
+            //PrintPattern method is called by passing an int variable n as the parameter.
             int n = 5;
             Console.WriteLine("Output of Program 1: PrintPattern");
+            Console.WriteLine("<----------------------------------->");
             PrintPattern(n);
             Console.WriteLine();
 
+            //PrintSeries method is called by passing an int variable n2 as the parameter.
             int n2 = 6;
             Console.WriteLine("Output of Program 2: PrintSeries");
+            Console.WriteLine("<----------------------------------->");
             PrintSeries(n2);
             Console.WriteLine();
 
+            //UsfTime method is called by passing a string variable s as the parameter that contains an earth time in string format.
             string s = "09:15:35PM";
             string t = UsfTime(s);
             Console.WriteLine("Output of Program 3: UsfTime");
+            Console.WriteLine("<----------------------------------->");
             Console.WriteLine(t);
             Console.WriteLine();
 
+            //UsfNumbers method is called by passing int variables n3 and k as the parameters.
             int n3 = 110; 
             int k = 11;
             Console.WriteLine("Output of Program 4: UsfNumbers");
+            Console.WriteLine("<----------------------------------->");
             UsfNumbers(n3, k);
             Console.WriteLine();
 
+            //PalindromPairs method is called by passing a string array variable "words" as the parameter.
             string[] words = new string[] { "abcd", "dcba", "lls", "s", "sssll" };
             Console.WriteLine("Output of Program 5: PalindromeWords");
+            Console.WriteLine("<----------------------------------->");
             PalindromePairs(words);
             Console.WriteLine();
 
+            //Stones method is called by passing an int variable n4 as the parameter.
             int n4 = 9;
             Console.WriteLine("Output of Program 6: Stones");
+            Console.WriteLine("<----------------------------------->");
             Stones(n4);
             Console.WriteLine();
         }
@@ -96,6 +108,8 @@ namespace Raj_Ankit_Assignment1_Spring2020
             {
                 Console.WriteLine("Exception Occured while computing printSeries");
             }
+            //Console.WriteLine() to make sure there is a line break after the final output.
+            Console.WriteLine();
         }
 
 
@@ -282,7 +296,8 @@ namespace Raj_Ankit_Assignment1_Spring2020
                             
                     }
                 }
-                
+                //Console.WriteLine() to make sure there is a line break after the final output.
+                Console.WriteLine();
             }
             catch
             {
