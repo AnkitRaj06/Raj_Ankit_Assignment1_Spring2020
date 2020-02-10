@@ -227,6 +227,14 @@ namespace Raj_Ankit_Assignment1_Spring2020
                             m = m - 1;
                         }
                     }
+                    else
+                    {
+                        Console.WriteLine("Sorry! Add a few more numbers for equal numbers on each line.");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Sorry! There should be at least " + k + " numbers on each line.");
                 }
                 
                 
